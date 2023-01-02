@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carte{
+    width: 70%;    /*70% de largeur*/
+    max-width: 500px;  /*taille max à ne pas dépasser*/
+    min-width: 280px;  /*taille min ne pas dépasser*/
+    height: auto;  /*prend tout ce qui est sur la carte**/
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    margin: 100px auto; /*pour center ma carte**/
+}
+.carte img{
+    width: 100%; /*il prend 100% de la carte, son parent*/
+}
+.h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color:blueviolet;
+}
+.carte h2{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.carte p{
+    padding: 20px;
+}
